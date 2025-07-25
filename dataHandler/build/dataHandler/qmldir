@@ -1,0 +1,5 @@
+module dataHandler
+typeinfo appdataHandler.qmltypes
+prefer :/qt/qml/dataHandler/
+Main 1.0 Main.qml
+

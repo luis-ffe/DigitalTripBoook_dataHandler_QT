@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appdataHandler_FILE /Users/luis/Desktop/dataHandler/build/appdataHandler.app/Contents/MacOS/appdataHandler)
+set(__QT_DEPLOY_TARGET_appdataHandler_TYPE EXECUTABLE)

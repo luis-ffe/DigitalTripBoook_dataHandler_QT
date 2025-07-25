@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  ".qt/rcc/qrc_appdataHandler_raw_qml_0.cpp"
+  ".qt/rcc/qrc_qmake_dataHandler.cpp"
+  ".rcc/qmlcache/appdataHandler_Main_qml.cpp"
+  ".rcc/qmlcache/appdataHandler_Main_qml.cpp.aotstats"
+  ".rcc/qmlcache/appdataHandler_qmlcache_loader.cpp"
+  "CMakeFiles/appdataHandler_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/appdataHandler_autogen.dir/ParseCache.txt"
+  "appdataHandler_autogen"
+  "CMakeFiles/appdataHandler.dir/appdataHandler_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/appdataHandler.dir/appdataHandler_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/appdataHandler.dir/appdatahandler_qmltyperegistrations.cpp.o"
+  "CMakeFiles/appdataHandler.dir/appdatahandler_qmltyperegistrations.cpp.o.d"
+  "CMakeFiles/appdataHandler.dir/build/.qt/rcc/qrc_appdataHandler_raw_qml_0.cpp.o"
+  "CMakeFiles/appdataHandler.dir/build/.qt/rcc/qrc_appdataHandler_raw_qml_0.cpp.o.d"
+  "CMakeFiles/appdataHandler.dir/build/.qt/rcc/qrc_qmake_dataHandler.cpp.o"
+  "CMakeFiles/appdataHandler.dir/build/.qt/rcc/qrc_qmake_dataHandler.cpp.o.d"
+  "CMakeFiles/appdataHandler.dir/build/.rcc/qmlcache/appdataHandler_Main_qml.cpp.o"
+  "CMakeFiles/appdataHandler.dir/build/.rcc/qmlcache/appdataHandler_Main_qml.cpp.o.d"
+  "CMakeFiles/appdataHandler.dir/build/.rcc/qmlcache/appdataHandler_qmlcache_loader.cpp.o"
+  "CMakeFiles/appdataHandler.dir/build/.rcc/qmlcache/appdataHandler_qmlcache_loader.cpp.o.d"
+  "CMakeFiles/appdataHandler.dir/influxdbclient.cpp.o"
+  "CMakeFiles/appdataHandler.dir/influxdbclient.cpp.o.d"
+  "CMakeFiles/appdataHandler.dir/main.cpp.o"
+  "CMakeFiles/appdataHandler.dir/main.cpp.o.d"
+  "appdataHandler.app/Contents/MacOS/appdataHandler"
+  "appdataHandler.pdb"
+  "appdataHandler_autogen/mocs_compilation.cpp"
+  "appdataHandler_autogen/timestamp"
+  "appdatahandler_qmltyperegistrations.cpp"
+  "dataHandler/appdataHandler.qmltypes"
+  "meta_types/appdataHandler_json_file_list.txt"
+  "meta_types/appdataHandler_json_file_list.txt.timestamp"
+  "meta_types/qt6appdatahandler_debug_metatypes.json"
+  "meta_types/qt6appdatahandler_debug_metatypes.json.gen"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/appdataHandler.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

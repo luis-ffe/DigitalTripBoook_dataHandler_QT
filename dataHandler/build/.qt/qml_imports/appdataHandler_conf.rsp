@@ -1,0 +1,14 @@
+-rootPath
+/Users/luis/Desktop/dataHandler
+-cmake-output
+-output-file
+/Users/luis/Desktop/dataHandler/build/.qt/qml_imports/appdataHandler_conf.cmake
+-importPath
+/Users/luis/Desktop/dataHandler/build/dataHandler
+-importPath
+/Users/luis/Desktop/dataHandler/build
+-importPath
+/opt/homebrew/share/qt/qml
+-qrcFiles
+/Users/luis/Desktop/dataHandler/build/.qt/rcc/qmake_dataHandler.qrc
+/Users/luis/Desktop/dataHandler/build/.qt/rcc/appdataHandler_raw_qml_0.qrc

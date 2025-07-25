@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/dataHandler/">
+    <file alias="Main.qml">/Users/luis/Desktop/dataHandler/Main.qml</file>
+  </qresource>
+</RCC>
+

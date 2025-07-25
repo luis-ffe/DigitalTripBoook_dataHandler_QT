@@ -1,0 +1,5 @@
+--resource
+/Users/luis/Desktop/dataHandler/build/.qt/rcc/qmake_dataHandler.qrc
+--resource
+/Users/luis/Desktop/dataHandler/build/.qt/rcc/appdataHandler_raw_qml_0.qrc
+/qt/qml/dataHandler/Main.qml

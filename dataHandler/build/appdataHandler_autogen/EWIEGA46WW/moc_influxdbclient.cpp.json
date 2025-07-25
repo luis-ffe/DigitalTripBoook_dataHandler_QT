@@ -1,0 +1,186 @@
+{
+    "classes": [
+        {
+            "className": "InfluxDBClient",
+            "lineNumber": 160,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "getAllTripsFromDatabase",
+                    "returnType": "QVariantList"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "tripId",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "getTripDetails",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "tripId",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "deleteTrip",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "name": "refreshTrips",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "tripId",
+                            "type": "int"
+                        },
+                        {
+                            "name": "tripName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "updateTripName",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "tripId",
+                            "type": "int"
+                        },
+                        {
+                            "name": "driverName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "updateTripDriver",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "tripId",
+                            "type": "int"
+                        },
+                        {
+                            "name": "notes",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 12,
+                    "name": "updateTripNotes",
+                    "returnType": "bool"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "InfluxDBClient",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "tripId",
+                            "type": "int"
+                        },
+                        {
+                            "name": "startTime",
+                            "type": "QDateTime"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "tripStarted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "tripId",
+                            "type": "int"
+                        },
+                        {
+                            "name": "endTime",
+                            "type": "QDateTime"
+                        },
+                        {
+                            "name": "maxSpeed",
+                            "type": "double"
+                        },
+                        {
+                            "name": "avgSpeed",
+                            "type": "double"
+                        },
+                        {
+                            "name": "distance",
+                            "type": "double"
+                        },
+                        {
+                            "name": "duration",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "tripEnded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "tripsUpdated",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 3,
+                    "name": "onDataReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "error",
+                            "type": "QNetworkReply::NetworkError"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "onNetworkError",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 5,
+                    "name": "onTimerTimeout",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "influxdbclient.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,10 @@
+--bare
+-I
+/Users/luis/Desktop/dataHandler/build
+-I
+/opt/homebrew/share/qt/qml
+--resource
+/Users/luis/Desktop/dataHandler/build/.qt/rcc/qmake_dataHandler.qrc
+--resource
+/Users/luis/Desktop/dataHandler/build/.qt/rcc/appdataHandler_raw_qml_0.qrc
+/Users/luis/Desktop/dataHandler/Main.qml
